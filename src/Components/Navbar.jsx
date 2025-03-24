@@ -11,7 +11,7 @@ const Navbar = () => {
  
 
   return (
-    <nav className="w-[100vw] h-[8vh] bg-red-200 flex items-center justify-around p-14 font-extrabold text-2xl">
+    <nav className="w-[100vw] h-[8vh] bg-[#F5F5F5] flex items-center justify-around p-14 font-extrabold text-2xl">
     
     <NavLink to="/" className={linkClass}>Home</NavLink>
     <NavLink to="/about" className={linkClass}>About</NavLink>
