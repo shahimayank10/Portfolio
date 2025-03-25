@@ -11,12 +11,15 @@ const Navbar = () => {
  
 
   return (
-    <nav className="w-[100vw] h-[8vh] bg-[#F5F5F5] flex items-center justify-around p-14 font-extrabold text-2xl">
+    <nav className="w-[100vw] h-[8vh] bg-[#F5F5F5] flex items-center justify-end p-14 font-extrabold text-2xl fixed">
     
+    <div className='w-[50vw] bg-pink-200 flex items-center justify-around'>
     <NavLink to="/" className={linkClass}>Home</NavLink>
     <NavLink to="/about" className={linkClass}>About</NavLink>
     <NavLink to="/skills" className={linkClass}>Skills</NavLink>
     <NavLink to="/projects" className={linkClass}>Projects</NavLink>
+    
+    </div>
     </nav>
   );
 };
