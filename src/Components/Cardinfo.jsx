@@ -5,9 +5,9 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Cardinfo = () => {
   return (
-    <div className=' bg-[#a49c9c] h-[60vh] w-[340px] p-[10px] flex flex-col items-center justify-evenly'>
+    <div className=' bg-[#d9d5d5] h-[500px] w-[320px]  flex flex-col items-center justify-evenly'>
         
-      <div className='h-[35vh] w-[70%] bg-[url("public/pic.jpg")] p-5 bg-cover bg-center rounded-lg m-4'></div>
+      <div className='h-[35vh] w-[80%] bg-[url("/pic.jpg")] bg-cover bg-center rounded-lg m-4'></div>
       <h1 className='font-bold text-xl'>Hi! I'm Mayank Shahi</h1>
 
       <div className='text-black-200  p-10 w-full flex items-center justify-evenly' id='social'>
@@ -27,8 +27,8 @@ const Cardinfo = () => {
        </div>
 
        {/* Resume Download */}
-       <a href="public/MayankShahi_Resume.pdf" download="MayankShahi_Resume.pdf">
-            <button className="bg-blue-500 w-25 hover:bg-blue-600 cursor-pointer text-white font-bold py-2 px-4 rounded transition duration-300">
+       <a href="/MayankShahi_Resume.pdf" download="MayankShahi_Resume.pdf">
+            <button className="bg-blue-500 w-45 hover:bg-blue-600 cursor-pointer p-5 border-amber-500 text-white font-bold rounded transition duration-300">
               Download Resume
             </button>
        </a>
