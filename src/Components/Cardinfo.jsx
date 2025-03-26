@@ -3,13 +3,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
-const Cardinfo = () => {
+const Cardinfo = ({skills}) => {
   return (
-    <div className='w-[320px] p-4 flex flex-col items-center gap-4 justify-around'>
+    <div className='w-[320px] p-4 flex flex-col items-center gap-4 bg-[#F5F5F5] rounded-2xl justify-around'>
         
       <div className='h-[300px] w-[100%] bg-[url("/pic.jpg")] bg-cover bg-center rounded-lg m-4'></div>
 
-      <h1 className='font-bold text-2xl capitalize'>Hi! I'm Mayank Shahi <br />Frontend Developer</h1>
+      <h1 className='font-bold text-2xl capitalize text-center'>Hi! I'm Mayank Shahi <br />Frontend Developer</h1>
 
       <div className='my-8 w-full flex px-1 items-center justify-around' id='social'>
 
@@ -29,7 +29,7 @@ const Cardinfo = () => {
 
        {/* Resume Download */}
        <a href="/MayankShahi_Resume.pdf" download="MayankShahi_Resume.pdf">
-            <button className="bg-blue-500 p-4 hover:bg-blue-600 cursor-pointer text-white font-bold rounded transition duration-300">
+            <button className="bg-black text-white p-4 hover:bg-white hover:text-black cursor-pointer border-2 font-bold rounded transition duration-300">
               Download Resume
             </button>
        </a>
