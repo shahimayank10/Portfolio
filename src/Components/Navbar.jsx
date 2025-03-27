@@ -25,8 +25,8 @@ const Navbar = () => {
     
     <div className='md:w-1/2 sm:w-full flex items-center sm:justify-around md:justify-around'>
     <NavLink to="/" className={linkClass}>Home</NavLink>
-    <NavLink to="/about" className={linkClass}>About</NavLink>
-    <NavLink to="/projects" className={linkClass}>Projects</NavLink>
+    <NavLink to="/about"  className={linkClass}>About</NavLink>
+    <NavLink to="/projects"  className={linkClass}>Projects</NavLink>
     <div onClick={()=>setMode(()=>!mode)} className="cursor-pointer">
       {mode?(<LightModeIcon  fontSize="large"/>):(<DarkModeIcon  fontSize="large"/>)}
     </div>

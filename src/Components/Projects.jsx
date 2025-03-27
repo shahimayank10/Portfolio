@@ -1,5 +1,6 @@
 import React from 'react'
 import Cardinfo from './Cardinfo'
+import Projectbox from './Projectbox'
 
 const Projects = () => {
   return (
@@ -11,7 +12,14 @@ const Projects = () => {
                   </div>
 
                   <div id='right' className='w-full bg-blue-300 h-auto text-xl flex flex-col gap-4 font-bold p-4 '>
-                 
+                 <Projectbox/>
+                 <Projectbox/>
+                 <Projectbox/>
+                 <Projectbox/>
+                 <Projectbox/>
+                 <Projectbox/>
+                 <Projectbox/>
+                 <Projectbox/>
                   </div>
 
             </div>

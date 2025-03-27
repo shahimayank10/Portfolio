@@ -31,12 +31,13 @@ const About = () => {
                       <h1 className='text-2xl uppercase font-extrabold'>Myself</h1>
                       
                       <br />
-                    Hi, I'm Mayank Shahi, a passionate front-end developer with a keen interest in crafting engaging and user-friendly web experiences. Proficient in JavaScript and experienced in building responsive web applications using React.js.
+                    <h3>Hi, I'm Mayank Shahi, a passionate front-end developer with a keen interest in crafting engaging and user-friendly web experiences. Proficient in JavaScript and experienced in building responsive web applications using React.js.
                     <br />
                     I have a solid foundation in front-end technologies like HTML and CSS and am well-versed in modern design frameworks including Bootstrap and Tailwind CSS. Additionally, I have hands-on experience with C++, which strengthens my problem-solving abilities.
                     <br />
                     My goal is to create intuitive and efficient web interfaces that enhance user experiences. I’m constantly learning and exploring new technologies to stay updated in the ever-evolving world of web development.
-                    </div>
+                   </h3>
+                     </div>
                   
                   <div id='skills' className='w-full h-auto p-4 rounded-2xl bg-[#F5F5F5]'>
                   <h1 className='text-2xl uppercase font-extrabold'>Skills</h1>
