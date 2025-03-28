@@ -6,7 +6,7 @@ const Home = () => {
  
 
   return (
-    <div className='w-full h-[92vh] flex flex-col items-center justify-center gap-10'>
+    <div className="w-full h-[92vh] flex flex-col items-center justify-center gap-10">
       
     <Cardinfo/>
     </div>
