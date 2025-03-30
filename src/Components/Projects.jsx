@@ -11,14 +11,13 @@ const Projects = () => {
   
 
   return (
-    <div className=' w-full h-auto p-8 '>
-            <div id='project' className=' h-auto rounded sm:flex sm:flex-col md:flex md:flex-row '>
-
-                  <div id='left' className='px-8 bg-red-200 py-4 w-auto'>
+    <div className=' w-full h-auto py-8 '>
+          <div id='project' className=' h-auto rounded sm:flex sm:flex-col md:flex md:flex-row '>
+          <div id='left' className='flex justify-center  py-4 w-full sm:w-2/5'>
                     <Cardinfo/>
                   </div>
 
-                  <div id='right' className='w-full bg-blue-300 h-auto text-xl flex flex-col gap-4 font-bold p-4 '>
+                  <div id='right' className='w-full  h-auto text-xl flex flex-col gap-4 font-bold p-4 '>
 
                 
                 {ProjectDetails.map((item,index)=><Projectbox key={index} data={item}/>)} 

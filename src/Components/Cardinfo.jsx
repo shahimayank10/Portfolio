@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Cardinfo = ({skills}) => {
   return (
-    <div className='w-[320px] p-4 flex flex-col items-center gap-4 bg-[#F5F5F5] rounded-2xl justify-around'>
+    <div className='w-[320px] p-4 h-[700px] flex flex-col items-center gap-4 bg-[#F5F5F5] rounded-2xl justify-around'>
         
       <div className='h-[300px] w-[100%] bg-[url("/pic.jpg")] bg-cover bg-center rounded-lg m-4'></div>
 

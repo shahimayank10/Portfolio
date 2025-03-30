@@ -8,8 +8,8 @@ const Projectbox = ({data}) => {
     <div  className='w-full h-auto p-4 rounded-2xl flex flex-col gap-1 bg-[#F5F5F5]'>
       <h1 className='text-2xl font-extrabold uppercase'>{data.title}</h1>
       <hr />
-      <h3>{data.tech}/({data.duration}) </h3>
-      <p className='text-[1rem] py-1'>{data.description}</p>
+      <h3 className='font-medium'>{data.tech}/({data.duration}) </h3>
+      <p className='font-medium text-[1rem] py-1'>{data.description}</p>
       <a href={data.link} className='text-blue-400'><LinkIcon/>link</a>
     </div>
   )
