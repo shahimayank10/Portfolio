@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const linkClass=(e)=>{
         return [
-            e.isActive? "text-black":"",
+            e.isActive? "font-semibold sm:font-bold":"",
             e.isActive? "border-b-2":""
         ].join(" ");
     }

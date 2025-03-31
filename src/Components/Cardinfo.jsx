@@ -17,7 +17,7 @@ const Cardinfo = ({skills}) => {
         <LinkedInIcon fontSize="large"/>
         </a>
 
-        <a href="mailto:example@example.com" className='opacity-50 hover:opacity-100 transition duration-100'>
+        <a href="mailto:shahimayank10@gmail.com" className='opacity-50 hover:opacity-100 transition duration-100'>
         <EmailIcon fontSize="large"/>
         </a>
        
@@ -29,7 +29,7 @@ const Cardinfo = ({skills}) => {
 
        {/* Resume Download */}
        <a href="/MayankShahi_Resume.pdf" download="MayankShahi_Resume.pdf">
-            <button className="bg-black text-white p-4 hover:bg-white hover:text-black cursor-pointer border-2 font-bold rounded transition duration-300">
+            <button className="bg-black text-white p-4 hover:bg-white hover:text-black cursor-pointer border-2 font-bold rounded-xl transition duration-300">
               Download Resume
             </button>
        </a>
