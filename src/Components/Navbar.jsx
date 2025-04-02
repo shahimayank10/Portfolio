@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import { useContext } from 'react';
+import { ProfileData } from '../context/Context';
 
 
 
@@ -9,7 +11,8 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 const Navbar = () => {
 
 
-  const [mode,setMode]=useState(true);
+
+  const {mode,setMode}=useContext(ProfileData);
 
 
     const linkClass=(e)=>{
