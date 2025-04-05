@@ -11,7 +11,7 @@ const {mode,setMode}=useContext(ProfileData);
 
   // 
   return (
-    <div className={`w-[320px] p-4 h-[700px] flex flex-col items-center gap-4 ${mode ? "bg-[#F5F5F5]" : "bg-zinc-700"} rounded-2xl justify-around`}>
+    <div className={`w-[320px] p-4 h-[700px] flex flex-col items-center gap-4 ${mode ? "bg-[#F5F5F5]" : "bg-[#323236]"} rounded-2xl justify-around`}>
         
       <div className={`h-[300px] w-full bg-[url("/pic.jpg")] bg-cover bg-center rounded-lg m-4  ${mode?"text-black":"text-white"} `}></div>
 

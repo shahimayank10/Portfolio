@@ -5,11 +5,11 @@ import { ProfileData } from '../context/Context'
 
 const About = () => {
 
-const {skills}=useContext(ProfileData);
+const {skills,mode,setMode}=useContext(ProfileData);
 
 
   return (
-    <div className=' w-full h-auto py-8 '>
+    <div className={`w-full h-auto py-8 ${mode? "bg-zinc-50":"bg-zinc-800"}`}>
             <div id='about' className=' h-auto rounded sm:flex sm:flex-col md:flex md:flex-row '>
                   <div id='left' className='flex justify-center  py-4 w-full sm:w-2/5'>
                     <Cardinfo/>
@@ -17,7 +17,7 @@ const {skills}=useContext(ProfileData);
 
                   <div id='right' className='w-full h-auto flex flex-col gap-4  p-4 '>
                  
-                    <div id='myself' className='w-full h-auto rounded-2xl p-4 bg-[#F5F5F5]'>
+                    <div id='myself' className={`w-full h-auto rounded-2xl p-4 ${mode ? "bg-[#F5F5F5]" : "bg-[#323236]"} ${mode?"text-black":"text-white"}`}>
 
                       <h1 className='text-2xl uppercase font-extrabold'>Myself</h1>
                       
@@ -30,11 +30,11 @@ const {skills}=useContext(ProfileData);
                    </h3>
                      </div>
                   
-                  <div id='skills' className='w-full h-auto p-4 rounded-2xl bg-[#F5F5F5]'>
+                  <div id='skills' className={`w-full h-auto p-4 rounded-2xl ${mode ? "bg-[#F5F5F5]" : "bg-[#323236]"} ${mode?"text-black":"text-white"}`}>
                   <h1 className='text-2xl uppercase font-extrabold'>Skills</h1>
                    <br />
 
-                  <div id="skillbox" className='w-full h-auto  flex gap-4 items-center flex-wrap '>
+                  <div id="skillbox" className={`w-full h-auto  flex gap-6 items-center flex-wrap `}>
                       {skills.map((item,index)=> <Skill data={item} key={index}/>)} 
                   
                   </div>
