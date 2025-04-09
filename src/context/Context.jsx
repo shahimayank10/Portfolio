@@ -55,7 +55,7 @@ const Context = (props) => {
       tech: "HTML, Tailwind CSS, JavaScript",
       description:
         "Built a responsive and interactive to-do list application to manage daily tasks efficiently. Used Tailwind CSS for clean, utility-first styling and responsive design. Implemented dynamic task addition, deletion, and completion functionality using JavaScript. Ensured a user-friendly layout with smooth UI interactions.",
-      // link: "",
+      link: "",
     },
     {
       title: "AI-Powered Image Enhancer",
@@ -65,9 +65,15 @@ const Context = (props) => {
       link: "https://shahimayank10.github.io/Image-Enhancer/",
     },
     {
-      title: "",
+      title: "E-commerce (frontend)",
       tech: "React.js, JavaScript",
-      description: "",
+      description: "Proposed an e-commerce website using React.js. Implemented routing for seamless navigation across pages. Created functionality to filter products based on their categories. Enabled adding, editing, and removing showcased products. Utilized localStorage for data management in the absence of a backend. Enhanced React skills with a focus on state management and component reusability",
+      link: "#",
+    },
+    {
+      title: "News Website",
+      tech: "HTML, Tailwind CSS, JavaScript",
+      description: "Authored a dynamic news website using HTML, CSS, and JavaScript. Integrated a news API to fetch and display real-time news. Added a search feature to filter news by categories, enhancing user experience. Designed a responsive and intuitive interface for seamless navigation. Demonstrated skills in API handling, DOM manipulation, and responsive web design.",
       link: "",
     },
   ];
