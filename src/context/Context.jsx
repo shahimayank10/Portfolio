@@ -51,12 +51,12 @@ const Context = (props) => {
 
   const ProjectDetails = [
     {
-      title: "To-Do List Web App",
-      tech: "HTML, Tailwind CSS, JavaScript",
-      description:
-        "Built a responsive and interactive to-do list application to manage daily tasks efficiently. Used Tailwind CSS for clean, utility-first styling and responsive design. Implemented dynamic task addition, deletion, and completion functionality using JavaScript. Ensured a user-friendly layout with smooth UI interactions.",
+      title: "Employee Management System",
+      tech: "React.js (Vite), Tailwind CSS, ContextApi",
+      description:"Developed a role-based employee management system with separate dashboards for admin and employees. Implemented secure login functionality. Admin can create and assign tasks with deadlines, and monitor task completion status. Employees can view assigned tasks, track progress (completed vs. pending), and manage their responsibilities through a clean, user-friendly interface.",
       link: "",
     },
+   
     {
       title: "AI-Powered Image Enhancer",
       tech: "React.js, JavaScript, PicWish API",
@@ -66,7 +66,7 @@ const Context = (props) => {
     },
     {
       title: "E-commerce (frontend)",
-      tech: "React.js, JavaScript",
+      tech: "React.js, JavaScript, ContextApi",
       description: "Proposed an e-commerce website using React.js. Implemented routing for seamless navigation across pages. Created functionality to filter products based on their categories. Enabled adding, editing, and removing showcased products. Utilized localStorage for data management in the absence of a backend. Enhanced React skills with a focus on state management and component reusability",
       link: "#",
     },
@@ -74,6 +74,13 @@ const Context = (props) => {
       title: "News Website",
       tech: "HTML, Tailwind CSS, JavaScript",
       description: "Authored a dynamic news website using HTML, CSS, and JavaScript. Integrated a news API to fetch and display real-time news. Added a search feature to filter news by categories, enhancing user experience. Designed a responsive and intuitive interface for seamless navigation. Demonstrated skills in API handling, DOM manipulation, and responsive web design.",
+      link: "",
+    },
+    {
+      title: "To-Do List Web App",
+      tech: "HTML, Tailwind CSS, JavaScript",
+      description:
+        "Built a responsive and interactive to-do list application to manage daily tasks efficiently. Used Tailwind CSS for clean, utility-first styling and responsive design. Implemented dynamic task addition, deletion, and completion functionality using JavaScript. Ensured a user-friendly layout with smooth UI interactions.",
       link: "",
     },
   ];

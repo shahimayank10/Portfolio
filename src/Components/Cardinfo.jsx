@@ -51,7 +51,7 @@ const Cardinfo = () => {
       </div>
 
       {/* Resume Download */}
-      <a href="/MayankShahi_Resume.pdf" download="MayankShahi_Resume.pdf">
+      <a href="/Resume.pdf" download="MayankShahi_Resume.pdf">
         <button
           className={`${mode ? "bg-black text-white  hover:bg-white hover:text-black" : "bg-zinc-100 text-black hover:bg-black hover:text-white"}
              cursor-pointer border-2 font-bold rounded-xl p-4 transition duration-300`}
