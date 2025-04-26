@@ -54,7 +54,7 @@ const Context = (props) => {
       title: "Employee Management System",
       tech: "React.js (Vite), Tailwind CSS, ContextApi",
       description:"Developed a role-based employee management system with separate dashboards for admin and employees. Implemented secure login functionality. Admin can create and assign tasks with deadlines, and monitor task completion status. Employees can view assigned tasks, track progress (completed vs. pending), and manage their responsibilities through a clean, user-friendly interface.",
-      link: "",
+      link: "https://github.com/shahimayank10/Employee-Management-System",
     },
    
     {
@@ -78,10 +78,10 @@ const Context = (props) => {
     },
     {
       title: "To-Do List Web App",
-      tech: "HTML, Tailwind CSS, JavaScript",
+      tech: "Nodejs, JavaScript, ejs",
       description:
         "Built a responsive and interactive to-do list application to manage daily tasks efficiently. Used Tailwind CSS for clean, utility-first styling and responsive design. Implemented dynamic task addition, deletion, and completion functionality using JavaScript. Ensured a user-friendly layout with smooth UI interactions.",
-      link: "",
+      link: "https://github.com/shahimayank10/todo-list",
     },
   ];
 
